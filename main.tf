@@ -10,8 +10,8 @@ terraform {
 #configure the AWS Provider
 provider "aws" {
   region = var.avail_zone
-  access_key = "AKIATXF4JQPHSMXABUZT"
-  secret_key = "7OF+j2Z7MVp+L5taro2v0fNstQMfEKpUhSnGdzbL"
+  access_key = "" # Replace your access key
+  secret_key = "" # Replace your secret access key
 }
 
 # Use variables to reference commonly used data
